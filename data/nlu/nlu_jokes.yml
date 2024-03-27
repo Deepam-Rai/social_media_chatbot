@@ -1,0 +1,17 @@
+version: "3.1"
+
+nlu:
+- intent: ask_joke
+  examples: |
+    - can you tell me a joke?
+    - ok tell me a joke.
+    - Let me hear the best joke of my life.
+    - Could you share a joke with me?
+    - I could use a good laugh. Got any jokes?
+    - I'm in need of a chuckle. Care to tell a joke?
+    - Feeling like I need a dose of humor. Got any jokes up your sleeve?
+    - I'm ready for some comic relief. Hit me with a joke!
+    - Time for a joke break! Do you have one to share?
+    - Hey, how about lightening the mood with a joke?
+    - In the mood for a good laugh. Can you tell me a joke?
+    - Alright, time for a joke. Do you have any?"

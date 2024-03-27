@@ -1,0 +1,14 @@
+version: "3.1"
+
+intents:
+  - ask_joke
+responses:
+  utter_tell_joke:
+  - text: "Ok here is one:"
+  - text: "Okay, here comes a joke:"
+  - text: "Gotcha! Here's a joke for you:"
+  - text: "Prepare yourself for some humor:"
+  - text: "Hold onto your hat, here's a joke:"
+
+actions:
+  - action_tell_joke
