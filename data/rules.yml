@@ -12,7 +12,24 @@ rules:
   - intent: bot_challenge
   - action: utter_iamabot
 
+- rule: Start/Restart
+  steps:
+    - intent: start
+    - action: utter_greet
+
+- rule: Invalid format from input api
+  steps:
+    - intent: invalid_format
+    - action: utter_invalid_format
+
 - rule: To tell jokes
   steps:
-    - intent: ask_joke
+    - or:
+      - intent: ask_joke
+      - intent: tell_joke
     - action: action_tell_joke
+
+- rule: For testing purposes
+  steps:
+    - intent: test
+    - action: action_test
